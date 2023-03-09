@@ -1,2 +1,80 @@
-/**/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial;
+   
+}
 
+body{
+    background-image:  linear-gradient(rgb(8, 12, 12), rgb(90, 0, 0));
+    width: 120vw;
+    height: 120vh;
+}
+
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    display: inline-flex;
+ }
+ .g{
+    background: linear-gradient(rgb(88, 0, 0), rgb(104, 40, 40));
+    display: flex;
+    flex-direction: column;   
+    width: 70vw;
+    height: 80vh;
+    border-radius: 8px 0px 0px 8px;
+}
+.hist{
+    background-color: rgb(146, 27, 27);
+    border-radius: 0px 8px 8px 0px ;
+    width: 20vw;
+}
+input{
+    background-color: rgb(146, 27, 27);
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 4px;
+    align-self: center;
+    width: 30vw;
+ }
+ input::placeholder {
+    color: rgb(255, 255, 255);
+  }
+ .s2{
+     display: flex;
+     flex-direction: column;
+     align-self: center;
+     margin-top: 15px ;
+ }
+ #calcular{
+    background-color: rgb(146, 27, 27);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+    margin-top: 35px;
+    width: 30vw;
+    align-self: center;
+}
+ #calcular:hover{
+    background-color: rgb(167, 45, 45);
+    cursor: pointer;
+ }
+ 
+ .h{
+     align-items: center;
+     align-self: center;
+     align-content: center;
+     margin-top: 15px;
+ }
+input{
+    color: white;
+}
